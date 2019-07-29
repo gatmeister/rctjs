@@ -20,7 +20,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: pink;
 }
 
 @keyframes App-logo-spin {
@@ -30,4 +30,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.grow {
+  flex: 1;
+}
+
+.main {
+  overflow-y: auto;
 }
